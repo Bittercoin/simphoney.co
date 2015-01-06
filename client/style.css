@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Lane Narrow';
+    src: url('/fonts/lanenar.woff') format('woff'),
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    
+    url('/fonts/lanenar.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+body {
+    background-color: #8800aa;
+    font-family: 'Lane Narrow', sans-serif;
+    color: white;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    /* For Safari 3.1 to 6.0 */
+}
+
+h2 {
+    font-weight: 400;
+}
+#container {
+    position: relative;
+}
+#antenna {
+    position: absolute;
+    opacity: 0.3;
+    top: 100px;
+    left: 110px;
+}
+#headline {
+    font-size: 60px;
+    font-weight: 400;
+    position: absolute;
+    top: 320px;
+    left: 360px;
+}
+#logo {
+    position: absolute;
+    top: 120px;
+    left: 750px;
+}
+#tinyBody {
+    width: 400px;
+    height: 254px;
+    position: absolute;
+    top: 340px;
+    left: 735px;
+}
+#mobinilButton, #vodafoneButton, #etisalatButton, #serialNumber {
+    width: 396px;
+    height: 46px;
+    border: 2px solid white;
+    margin: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+#serialNumber {
+    cursor: text;
+}
+
+#buttonsContainer {
+    
+    
+}
+#resultsContainer {
+    display: none;
+}
